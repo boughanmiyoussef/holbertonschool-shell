@@ -1,2 +1,2 @@
 #!/bin/bash
-for dir in */ do chmod 111 "$dir" done
+chmod -R ugo+X .
